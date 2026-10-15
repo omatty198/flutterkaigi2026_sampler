@@ -1,0 +1,22 @@
+name: flutterkaigi2026_sampler
+description: Riverpod 3 の Ref と Provider の寿命を比較する Flutter サンプル。
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: 3.4.3
+  # iOS 向けの標準ナビゲーションアイコンに使用。
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
