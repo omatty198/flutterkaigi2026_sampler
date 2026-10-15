@@ -46,3 +46,12 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# ローカルの環境変数・署名情報
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+/android/key.properties
